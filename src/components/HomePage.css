@@ -1,0 +1,47 @@
+.home-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  .home-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+  }
+/* Style mặc định cho màn hình lớn */
+.home-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Style cho màn hình nhỏ (dưới 768px - như điện thoại) */
+  @media (max-width: 768px) {
+    .home-container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    .slick-slide img {
+      height: auto;
+    }
+  }
+/* Thêm các điều kiện responsive */
+@media (max-width: 768px) {
+    .home-container {
+      flex-direction: column; /* Chuyển sang định dạng dọc cho kích thước màn hình nhỏ hơn */
+      /* Các điều chỉnh responsive khác */
+    }
+  }
+    
